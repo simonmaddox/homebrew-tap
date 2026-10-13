@@ -17,7 +17,7 @@ cask "airlock" do
   depends_on macos: :tahoe
 
   app "Airlock.app"
-  binary "#{appdir}/Airlock.app/Contents/Helpers/airlock"
+  binary "#{appdir}/Airlock.app/Contents/Resources/airlock"
 
   zap trash: [
     "~/Library/Application Scripts/com.simonmaddox.Airlock",
