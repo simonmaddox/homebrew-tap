@@ -1,6 +1,6 @@
 cask "airlock" do
-  version "1.0.2,202610181845"
-  sha256 "795382674c9c15fc75595a6495d059258e6bda2e2ebe8b9a4056fb2be5475f64"
+  version "1.0.3,202611181101"
+  sha256 "416c4909cffa277831c9862459f3ddb39674ff6564c7c18e42da9e18758652ea"
 
   url "https://downloads.airlock.sorrel.systems/Airlock-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Airlock"
